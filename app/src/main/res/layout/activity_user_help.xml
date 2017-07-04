@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+            android:id="@+id/textview1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="60px"
+            android:text="1.不同难度的闹钟间有什么区别？"/>
+            <TextView  android:id="@+id/textview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+              android:textSize="45px"
+              android:text="         不同难度的闹钟间题目和迷宫的难度不同，数量也不同，唤醒时的音量和亮度也不尽相同。唤醒强度随着难度的提升而加强，但高难度的闹钟可能会给您带来不适"/>
+            <TextView
+                android:id="@+id/textview3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="60px"
+                android:text="2.为什么定的闹钟不响？"/>
+            <TextView
+                android:id="@+id/textview4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="45px"
+                android:text="        1)请重新审视闹钟设定"/>
+            <TextView
+                android:id="@+id/textview5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="45px"
+                android:text="        2)下载安装时可能出现遗失和错误，请重新下载该软件"/>
+            <TextView
+                android:id="@+id/textview6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="45px"
+                android:text="        3)此软件因部分强制性功能需要较多的系统权限，缺乏权限会导致部分功能不可用，请在手机的安全软件中给予本软件足够的权限"/>
+            <TextView
+                android:id="@+id/textview7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="45px"
+                android:text="        4)请点击初始界面右上角“设置”中的“联系我们“，我们会竭诚为您解决问题"/>
+                TextView tv1= (TextView)findViewById(R.id.TextView1);
+                TextPaint tp1 = tv1.getPaint();
+                tp1.setFakeBoldText(true);
+                TextView tv2= (TextView)findViewById(R.id.TextView3);
+                TextPaint tp2 = tv2.getPaint();
+                tp2.setFakeBoldText(true);
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

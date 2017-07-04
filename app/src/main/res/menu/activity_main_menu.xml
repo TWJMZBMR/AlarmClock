@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/setup_item"
+        android:title="主题"/>
+    <item
+        android:id="@+id/activity_city_choose"
+        android:title="选择城市" />
+    <item
+        android:id="@+id/user_help_item"
+        android:title="用户帮助"/>
+    <item
+        android:id="@+id/about_item"
+        android:title="关于"/>
+
+    <item
+        android:id="@+id/quit"
+        android:title="退出" />
+</menu>
